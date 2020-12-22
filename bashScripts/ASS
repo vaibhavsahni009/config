@@ -1,0 +1,4 @@
+AS & scrcpy & disown
+
+PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+kill $PPPID

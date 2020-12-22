@@ -1,0 +1,30 @@
+--- File: .Xresources-regolith ---
+
+! This is the Regolith root-level Xresources file.
+!
+! -- Styles - Colors
+!
+! Uncomment one and only one of the following color definitions: 
+#include "/home/vaibhavsahni009/.config/regolith/styles/custom-color/color"
+#include "/home/vaibhavsahni009/.config/regolith/styles/custom-color/typeface"
+
+! -- Styles - Fonts
+! NOTE: Font packages may need to be installed when enabling typefaces.
+! Uncomment one and only one of the following font definitions:
+!#include "/etc/regolith/styles/typeface-sourcecodepro"
+!#include "/etc/regolith/styles/typeface-ubuntu"
+
+! -- Styles - Theme
+! NOTE: GTK theme and icon packages may need to be installed when enabling themes.
+! Uncomment one and only one of the following theme definitions:
+!
+!#include "/home/USER/.config/regolith/styles/theme-sweet"
+#include "/home/vaibhavsahni009/.config/regolith/styles/custom-color/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+!#include "/etc/regolith/styles/st-term"
+!#include "/home/vaibhavsahni009/.config/regolith/styles/i3-wm"
+!#include "/etc/regolith/styles/i3xrocks"
+#include "/home/vaibhavsahni009/.config/regolith/styles/rofi"
+#include "/home/vaibhavsahni009/.config/regolith/styles/gnome"

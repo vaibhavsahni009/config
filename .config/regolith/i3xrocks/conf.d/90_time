@@ -1,0 +1,14 @@
+# Date Time
+[time]
+command=date '+%b %d %H:%M'
+interval=1
+# label=
+label= 
+# #Date Time
+# [calendar]
+# interval=1
+# LABEL= 
+# DATEFMT=+%d.%m.%Y %H:%M:%S
+# SHORTFMT=+%H:%M:%S
+# HEIGHT=180
+# WIDTH=220

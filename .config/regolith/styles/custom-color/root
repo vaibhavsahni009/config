@@ -1,0 +1,18 @@
+regolith.look: custom-color
+
+! -- Styles - Colors
+#include "~/.config/regolith/styles/custom-color/color"
+
+! -- Styles - Fonts
+#include "~/.config/regolith/styles/custom-color/typeface"
+
+! -- Styles - Theme
+#include "~/.config/regolith/styles/custom-color/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "~/.config/regolith/styles/st-term"
+#include "~/.config/regolith/styles/i3-wm"
+#include "~/.config/regolith/styles/i3xrocks"
+#include "~/.config/regolith/styles/rofi"
+#include "~/.config/regolith/styles/gnome"

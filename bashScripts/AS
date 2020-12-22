@@ -1,0 +1,5 @@
+cd /opt/android-studio/bin
+nohup ./studio.sh >/dev/null & disown
+
+PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+kill $PPPID

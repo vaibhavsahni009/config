@@ -1,0 +1,5 @@
+--- File: theme-sweet ---
+
+#define gtk_theme       Sweet-Dark
+#define icon_theme      Sweet-Rainbow
+
